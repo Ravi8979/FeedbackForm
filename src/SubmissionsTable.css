@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 5px 15px;
+  align-items: center; /* This property is for flex containers, but body is not a flex container */
+}
+
+.submissions-container {
+  background-color: #57705b;
+  padding: 10px;
+  display: inline-block; /* or display: block; */
+  float: center; /* or remove this line if not needed */
+  border: 2px solid black;
+}
+
+.add-now-button {
+  background: rgb(27, 186, 67);
+  margin-bottom: 1%;
+  margin-left: 85%; /* Use relative units for better responsiveness */
+  border-width: 5px;
+  padding-bottom: 5px;
+}
+
+.search-form {
+  width: 50%; /* Utilize full width */
+  position: relative;
+  /* Adjust padding-left and search-icon positioning as needed */
+  padding-left: 200px;
+  margin-left: 55%;
+}
+
+.search-input {
+  width: calc(100% - 50px); /* Adjust width considering padding */
+  padding-left: 10px; /* Adjust padding as needed */
+}
+
+.search-icon {
+  position: absolute;
+  left: 80%; /* Adjust as needed */
+  top: 50%; /* Adjust as needed */
+  transform: translateY(-50%);
+}
+
+.submissions-table {
+  margin-bottom: 7%;
+  margin: 4px;
+  border-collapse: collapse;
+  width: 100%; /* Utilize full width */
+}
+
+.submissions-table th, .submissions-table td {
+  border: 1px solid #300d0d;
+  padding: 10px; /* Adjust padding as needed */
+  text-align: left;
+}
+
+.submissions-table th {
+  background-color: #8e8ca1; /* Consider adjusting color for better contrast */
+}
+
+.reset-button {
+  background: green;
+  margin-top: 2%; /* Adjust as needed */
+  margin-left: auto; /* Center horizontally */
+  margin-right: auto; /* Center horizontally */
+}

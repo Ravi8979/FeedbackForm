@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box; /* Use border-box for more predictable layout */
+ 
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif; /* Ensure consistent font usage */
+  padding: 5px 15px; /* Ensure padding values have units (e.g., px) */
+  border-radius: 5px;
+
+}
+
+.screen-container {
+  background-color: rgb(93, 73, 34);
+  position: relative;
+  left:25%;
+  top: 35%;
+  padding: 5px; /* Add units for padding */
+  border: 3px solid black;
+  margin-right: 60%;
+}
+
+.close-button {
+  background: rgb(21, 208, 74);
+  /* Add appropriate styles for the close button */
+  /* Consider adding additional styles such as size, padding, and border */
+}
+
+.ok-icon {
+  position: absolute;
+  left: 40px;
+  top: 30%;
+  transform: translateY(-50%);
+  width: 150px;
+  height: 70px;
+  /* Add appropriate styles for the OK icon */
+  /* Consider adding styles for the icon's background, border, and content */
+}
